@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:400, 700|Oswald);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700|Oswald);
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css); /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
  * Copyright 2011-2016 Twitter, Inc.
@@ -318,9 +318,17 @@ img {
 }
 .skills {
     display:block;
-    max-width:100%;
+    max-width:fit-content;
     height:20vh;
-    padding-left:20%;
+    padding:auto;
+}
+
+.logojs img {
+    padding-left:6px;
+}
+.logocss img {
+    padding-left:6px;
+    
 }
 .img-rounded {
     border-radius: 6px;
@@ -829,6 +837,7 @@ pre code {
 .row {
     margin-left: -15px;
     margin-right: -15px;
+    margin-top:20px;
     
 }
 .row:after,
@@ -4426,7 +4435,7 @@ button.close {
     border: 1px solid #fff;
     border-radius: 10px;
     cursor: pointer;
-    background-color: #000\9;
+    background-color: #0009;
     background-color: transparent;
 }
 .carousel-indicators .active {
