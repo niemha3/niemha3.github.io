@@ -318,18 +318,12 @@ img {
 }
 .skills {
     display:block;
-    max-width:fit-content;
+    max-width:90%;
     height:20vh;
     padding:auto;
 }
 
-.logojs img {
-    padding-left:6px;
-}
-.logocss img {
-    padding-left:6px;
-    
-}
+
 .img-rounded {
     border-radius: 6px;
 }
